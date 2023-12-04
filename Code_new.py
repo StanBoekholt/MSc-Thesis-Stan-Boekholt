@@ -12,7 +12,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load the dataset
-df = pd.read_excel('//studfiles.campus.uvt.nl/files/home/home00/u153190/MSc Data Science/Msc Thesis/Thesis/Thesis - Python/Dataset Thesis cleaned.xlsx')
+df = pd.read_excel('//studfiles.campus.uvt.nl/files/home/home00/u153190/MSc Data Science/Msc Thesis/Thesis/Thesis - Python/Dataset Thesis cleaned.csv')
 
 # Checking the data for missing values
 df.isnull().sum()
